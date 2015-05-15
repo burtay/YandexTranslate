@@ -17,14 +17,14 @@ class YandexTranslate
 	private $translateLangs ;
 	private $autoDedect 	=	1;
 	private $errors			=	array(
-										401=>'Invalid API key.',
-										402=>'This API key has been blocked.',
-										403=>'You have reached the daily limit for requests (including calls of the detect method).',
-										404=>'You have reached the daily limit for the volume of translated text (including calls of the detect method).',
-										413=>'The text size exceeds the maximum.',
-										422=>'The text could not be translated. ',
-										501=>'The specified translation direction is not supported.'
-										);
+						401=>'Invalid API key.',
+						402=>'This API key has been blocked.',
+						403=>'You have reached the daily limit for requests (including calls of the detect method).',
+						404=>'You have reached the daily limit for the volume of translated text (including calls of the detect method).',
+						413=>'The text size exceeds the maximum.',
+						422=>'The text could not be translated. ',
+						501=>'The specified translation direction is not supported.'
+						);
 	private $socket;
 	
 	public $all_langs		=	array("ar","az","be","bg","bs","ca","cs","da","de","el","en","es","et","fi","fr","he","hr","hu","hy","id","is","it","ja","ka","ko","lt","lv","mk","ms","mt","nl","no","pl","pt","ro","ru","sk","sl","sq","sr","sv","th","tr","uk","vi","zh");
