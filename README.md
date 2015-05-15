@@ -1,6 +1,15 @@
 # Yandex Translate API
 ###Simple Usage
 ```php
+<?php
+/*
+*	Yandex Translate API Class
+*	@author Burtay
+*	Website : http://www.burtay.org
+*	Mail : admin{at}burtay.org 
+*	Twitter : @HaciBurtay
+*	Github : @Burtay
+*/
 require("class.yandexTranslate.php");
 /* Instance */
 $yt = new YandexTranslate();
@@ -16,5 +25,6 @@ $yt->setTranslateLangs("en-tr");
 
 /* Translate it */
 $yt->translate(array("Your String Part 1","Your String Part 2"));
+?>
 ```
 
