@@ -1,9 +1,6 @@
-# YandexTranslate
-Yandex Translate API
-Created By PHP
-Simple Usage:
-
-
+# Yandex Translate API
+###Simple Usage
+```php
 require("class.yandexTranslate.php");
 /* Instance */
 $yt = new YandexTranslate();
@@ -19,5 +16,5 @@ $yt->setTranslateLangs("en-tr");
 
 /* Translate it */
 $yt->translate(array("Your String Part 1","Your String Part 2"));
-
+```
 
